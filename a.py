@@ -13,7 +13,7 @@ class KMeans:
         
         self.clusters = [[] for _ in range(self.k)]
         
-        self.centroids = []
+        self.centroids = [[] for _ in range(self.k)]
 
         self.data = None
         self.n_samples, self.n_features = None, None
