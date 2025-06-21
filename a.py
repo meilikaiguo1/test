@@ -13,7 +13,6 @@ class KMeans:
         
         self.clusters = [[] for _ in range(self.k)]
         
-        self.centroids = [[] for _ in range(self.k)]
 
         self.data = None
         self.n_samples, self.n_features = None, None
@@ -26,6 +25,11 @@ class KMeans:
         print(self.centroids)
         print(self.centroids.shape)
         print(self.centroids.ndim)
+
+        
+
+
+
 
 
         if self.plot_steps:
